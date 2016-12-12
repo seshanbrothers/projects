@@ -5,4 +5,6 @@ PIX3L PLOTT3R 3.0: Uses regular, thin markers. Image, LXF file and EV3-G code (c
 
 [!(V3/Pix3lv3.png)]
 
+<img src="V3/Pix3lv3.png">
+
 PIX3L PLOTT3R 4.0: Uses LEGO Makers (coming soon)
