@@ -1,3 +1,6 @@
-# projects
-These are the files for PIX3L PLOTT3R 3.0. It uses regular thin markers/felt pens.
-You are welcome to create this project for your own use and make any modifications you please for non-commercial usage only. Please credit Seshan Brothers for the design and code.
+# Seshan Brothers Projects
+You are welcome to reproduce or improve on any of these project for your own, non-commercial use.  Please credit Sanjay and Arvind Seshan for the design and code.
+
+PIX3L PLOTT3R 3.0: Uses regular, thin markers. Image, LXF file and EV3-G code (coming soon) files are provided.
+
+PIX3L PLOTT3R 4.0: Uses LEGO Makers (coming soon)
