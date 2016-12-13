@@ -4,7 +4,7 @@ You are welcome to reproduce or improve upon this project for your own, non-comm
 
 # Version 3.0 Features
 1. Uses wheels to feed in paper
-2. Uses regular, thin markers (e.g. Crayola, Prang, or equivalent think line marker)
+2. Uses regular, thin markers (e.g. Crayola, Prang, or equivalent fine line marker)
 3. Programmed in EV3-G
 4. Additional images processed in Python (if neeeded)
 5. Parts needed: 1 EV3 brick, 2 medium motors, 1 large motor, 1 color sensor, extra Technic and System parts. You can order parts from a store such as Bricklink.
