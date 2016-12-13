@@ -1,7 +1,5 @@
 # PIX3L PLOTT3R V.3.0
 
-![picture](Pix3lv3.png)
-
 You are welcome to reproduce or improve upon this project for your own, non-commercial use.  Please credit Sanjay and Arvind Seshan for the original design and code.
 
 # Version 3.0 Features
@@ -21,3 +19,5 @@ You are welcome to reproduce or improve upon this project for your own, non-comm
 **STEP 3:** How does it work? There is a menu system that displays on the brick that lets you pick from the two images. You can use the left and right brick buttons to preview the image.
 
 **STEP 4:** How do you make more images? We have provided a Python script that will convert any png to a rtf. The png should be 100 pixels width.
+
+![picture](Pix3lv3.png)
