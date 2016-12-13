@@ -17,6 +17,9 @@ You are welcome to reproduce or improve upon this project for your own, non-comm
 
 Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Motor - Port B, Printer Head Medium Motor - Port C
  
+![picture](PP3Front.png)
+![picture](PP3Back.png)
+
 
 **STEP 2:** Select the images you want the plotter to print. We have provided four images (.rtf files) to choose from. You can make your own as well (see Step 6). 
 
