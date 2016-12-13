@@ -1,6 +1,6 @@
 # PIX3L PLOTT3R V.3.0
 
-You are welcome to reproduce or improve upon this project for your own, non-commercial use.  Please credit Sanjay and Arvind Seshan for the original design and code.
+You are welcome to reproduce or improve upon this project for your own, non-commercial use.  Please credit Sanjay and Arvind Seshan for the original design and code. You are encouraged to share your work back with Sanjay and Arvind as well. We would enjoy seeing all the different versions of the printer.
 
 # Version 3.0 Features
 1. Uses wheels to feed in paper
