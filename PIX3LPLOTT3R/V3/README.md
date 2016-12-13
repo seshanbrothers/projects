@@ -8,12 +8,15 @@ You are welcome to reproduce or improve upon this project for your own, non-comm
 3. Programmed in EV3-G
 4. Additional images processed in Python (if neeeded)
 5. Parts needed: 1 EV3 brick, 2 medium motors, 1 large motor, 1 color sensor, extra Technic and System parts. You can order parts from a store such as Bricklink.
-6. This robot has been designed for US Letter Head size. You will have to make modifications if your paper is different
-7. Plastic sheet: We recommend that you place a plastic sheet on top of the plates for the paper to rest on. Tape the plastic sheet down at one end (where the color sensor is located). This will prevent the paper from catching on the holes in the LEGO as it moves forward.
+6. This robot has been designed for US Letter Head size paper. You will have to make modifications if your paper is different.
+7. Plastic sheet: We recommend that you place a plastic sheet on top of the plates for the paper to rest on. 
 
 # Installation Steps
 
-**STEP 1:** Build the robot. Although there are no build instructions provided, you can use the LDD file to duplicate this design. Use the hide and reveal features as needed. You will notice that there is a dark plate under the color sensor. This is deliberate.
+**STEP 1:** Build the robot. Although there are no build instructions provided, you can use the LDD file to duplicate this design. Use the hide and reveal features as needed. You will notice that there is a dark plate under the color sensor. This is deliberate. Place a clear plastic sheet on top of the plates. Tape the plastic sheet down at one end (where the color sensor is located). This will prevent the paper from catching on the holes in the LEGO as it moves forward.
+
+Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Motor - Port B, Printer Head Medium Motor - Port C
+ 
 
 **STEP 2:** Select the images you want the plotter to print. We have provided four images (.rtf files) to choose from. You can make your own as well (see Step 6). 
 
