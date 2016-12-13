@@ -18,8 +18,6 @@ You are welcome to reproduce or improve upon this project for your own, non-comm
 Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Motor - Port B, Printer Head Medium Motor - Port C
  
 ![picture](PP3Front.png)
-![picture](PP3Back.png)
-
 
 **STEP 2:** Select the images you want the plotter to print. We have provided four images (.rtf files) to choose from. You can make your own as well (see Step 6). 
 
@@ -28,6 +26,8 @@ Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Mo
 **STEP 4:** Download the .ev3 file and the .rtf files to the brick. (If you don't know how to do that, refer to EV3Lessons.com for a lesson. *coming soon*)
 
 **STEP 5:** Start the printing process. Insert a marker in the print head slightly above the paper (should not touch the LEGO plates). There is a menu system that displays on the brick that lets you pick from the two images and gives you instructions. You can use the left and right brick buttons to preview the image. The printer head starts as far left as possible (close to the brick). It will reset after each print is complete.
+
+![picture](PP3Back.png)
 
 **STEP 6:** How do you make more images? We have provided a Python script that will convert any png to a rtf. The png should be 100 pixels width.
 
