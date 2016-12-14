@@ -8,8 +8,8 @@ You are welcome to reproduce or improve upon this project for your own, non-comm
 3. Programmed in EV3-G
 4. Additional images processed in Python (if neeeded)
 5. Parts needed: 1 EV3 brick, 2 medium motors, 1 large motor, 1 color sensor, extra Technic and System parts. You can order parts from a store such as Bricklink.
-6. This robot has been designed for US Letter Head size paper. You will have to make modifications if your paper is different.
-7. Plastic sheet: We recommend that you place a plastic sheet on top of the plates for the paper to rest on. 
+6. This robot has been designed for US Letter size paper. You will have to make modifications if your paper is different.
+7. We recommend that you place a clear plastic sheet on top of the plates for the paper to rest on. 
 
 # Installation Steps
 
@@ -23,7 +23,7 @@ Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Mo
 
 **STEP 3:** Modify the EV3-G code to match the images. In the EV3-G program, rename the very first two constant blocks "file1" and "file2" to match the two .rtf files you selected to print. (For example, change "file1" to "Taj" if you want a Taj Mahal printed).
 
-**STEP 4:** Download the .ev3 file and the .rtf files to the brick. (If you don't know how to do that, refer to EV3Lessons.com for a lesson. *coming soon*)
+**STEP 4:** Download the .ev3 file and the .rtf files to the brick. (If you don't know how to do that, refer to EV3Lessons.com Lessons -> Advanced for a lesson on Downloading and Uplaoding Files)
 
 **STEP 5:** Start the printing process. Insert a marker in the print head slightly above the paper (should not touch the LEGO plates). There is a menu system that displays on the brick that lets you pick from the two images and gives you instructions. You can use the left and right brick buttons to preview the image. The printer head starts as far left as possible (close to the brick). It will reset after each print is complete.
 
