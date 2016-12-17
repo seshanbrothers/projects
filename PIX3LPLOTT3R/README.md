@@ -1,6 +1,8 @@
 # PIX3L PLOTT3R
 You are welcome to reproduce or improve on any of these project for your own, non-commercial use.  Please credit Sanjay and Arvind Seshan for the original design and code.
 
+Follow this project on Facebook: @PIX3LPLOTT3R
+
 PIX3L PLOTT3R is a series of printing robots made with LEGO MINDSTORMS EV3s. Different versions provide different features. Some feature a paper feeder, some feature LEGO markers, some feature multiple EV3s working together and some can even be built with just one set. Each version has a different print mechanism. We will share the project build and code files for each version here. Build the one that best fits your needs or build them all!
 
 **PIX3L PLOTT3R V.2.0 - EV3-Dev Edition:** This version of the plotter is programmed entirely in Python. <a href="https://youtu.be/ovv3BeC4fmI">YouTube Video</a>. 
