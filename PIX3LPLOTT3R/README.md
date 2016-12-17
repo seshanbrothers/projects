@@ -16,6 +16,6 @@ PIX3L PLOTT3R is a series of printing robots made with LEGO MINDSTORMS EV3s. Dif
 **Holiday Card Plott3r -  PIX3L PLOTT3R Christmas Edition:** This is a special edition of PIX3L PLOTT3R that requires three LEGO MINDSTORMS EV3s. Video
  <a href="https://youtu.be/XGDPLqzy6EA">YouTube Video by the LEGO Group</a>. Instructions coming soon.
 
-![picture](projects/HolidayPlott3r.JPG)
+![picture](https://github.com/seshanbrothers/projects/raw/master/HolidayPlott3r.JPG)
 
 
