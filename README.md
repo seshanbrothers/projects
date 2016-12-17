@@ -1,6 +1,6 @@
-# Seshan Brothers Projects
+<!--# Seshan Brothers Projects
 This site is devoted to projects by the Seshan Brothers. 
-
+-->
 <img src="HolidayPlott3r.JPG">
 
 You are welcome to reproduce or improve on any of these project for your own, non-commercial use.  Please credit Sanjay and Arvind Seshan for the design and code.
