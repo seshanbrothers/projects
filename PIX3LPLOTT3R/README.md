@@ -13,7 +13,7 @@ PIX3L PLOTT3R is a series of printing robots made with LEGO MINDSTORMS EV3s. Dif
 
 **PIX3L PLOTT3R 4.0:** In this version of the plotter, the paper does not feed. It uses up to two LEGO Markers. This version of the ploter was originally programmed in Python, but has been converted to EV3-G. A variation of this plott3r is used as a photo booth and can bring images taken with with a webcam and Raspberry Pi. (Instructions coming soon) Watch this <a href="https://youtu.be/BFtARiJcW8w">YouTube Video of V.4</a>.  Watch this YouTube video to see <a href="https://www.youtube.com/watch?v=ojMbPc9EGgU">Photo Booth Features</a> 
 
-![picture](Pix3lPlott3rv4.jpg)
+![picture](Pix3lPlott3rV4.jpg)
 
 **SCRIB3 - PIX3L PLOTT3R Home Edition:** This version of the plotter is made with a single LEGO MINDSTORMS 31313 set. Instructions and code are coming soon.
 
