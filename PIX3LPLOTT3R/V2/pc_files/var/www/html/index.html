@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<head>
+<title>EV3 Printer Web Interface</title>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<script src="modernizr-1.6.min.js"></script>
+<script src="finger_painting.js"></script>
+</head>
+<body>
+  <script>
+pencolor = "black"
+penwidth = 7
+  </script>
+  <style>
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2.5); /* IE */
+  -moz-transform: scale(2.5); /* FF */
+  -webkit-transform: scale(2.5); /* Safari and Chrome */
+  -o-transform: scale(2.5); /* Opera */
+  padding: 10px;
+}
+
+    
+/* Some CSS styling */
+#sketchpadapp {
+    /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.leftside {
+    float:left;
+    width:230px;
+    height:315px;
+    background-color:#def;
+    padding:10px;
+    border-radius:4px;
+}
+.rightside {
+    float:left;
+    margin-left:10px;
+}
+#sketchpad {
+    float:left;
+    height:300px;
+    width:400px;
+    border:2px solid #888;
+    border-radius:4px;
+    position:relative; /* Necessary for correct mouse co-ords in Firefox */
+}
+#clearbutton {
+    font-size: 10px;
+    padding: 10px;
+    -webkit-appearance: none;
+    background: #eee;
+    border: 1px solid #888;
+}
+</style>
+
+
+<!--<br>Should the robot print your name: <input type="checkbox" id="check" onclick="func()" ><br>
+  -->
+Enter Your Name Before Printing: 
+  <input type="text" style="font-size:20px;" id='name'>
+<br><br>
+    <div id="sketchpadapp">
+        <div class="leftside">
+             Draw what you want the robot to print.
+           Then press the print button. If selected image does not appear, press the button again.<br/>
+             <input type="submit" value="Clear Sketchpad" id="clearbutton" onclick="document.getElementById('text').value = '';
+
+var tCtx = document.getElementById('sketch').getContext('2d')
+//sketcher.clear();
+tCtx.fillStyle = 'white';
+tCtx.fillRect(0, 0, 50000, 1200);
+
+">
+       <input type="submit" onclick="upload()" style="    font-size: 10px;
+    padding: 10px;
+    -webkit-appearance: none;
+    background: #eee;
+    border: 1px solid #888;
+width: 100px" value="Print" />
+<p style="font-size:15px">
+<input type="text" style="font-size:20px;" id='text' size="15" placeholder="Print Text"><br>
+<a  download="data.png" onclick="loadimg('images/girl.jpg');loadimg('images/girl.jpg');" >Girl With A Pearl Earring</a><br>
+<a onclick="loadimg('images/mona_lisa.jpg');loadimg('images/mona_lisa.jpg')">Mona Lisa</a><br>
+<!--<a onclick="loadimg('images/steeler.jpg');loadimg('images/steeler.jpg')">Steelers Logo</a><br>-->
+<a onclick="loadimg('images/lego.png');loadimg('images/lego.png')">LEGO Logo</a><br>
+<a onclick="loadimg('images/tiger.jpg');loadimg('images/tiger.jpg')">A Tiger</a><br>
+<a onclick="loadimg('images/scream.jpg');loadimg('images/scream.jpg')">Scream</a><br>
+<a onclick="loadimg('images/vangogh.png');loadimg('images/vangogh.png')">Van Gogh Self Portrait (face)</a><br>
+Image Upload: <input type="file" id="imageLoader" name="imageLoader"/>
+</p>
+
+
+        <form method="post" accept-charset="utf-8" name="form1">
+            <input name="hidden_data" id='hidden_data' type="hidden"/>
+        </form>
+
+     </div>
+        <div class="rightside">
+           <script src="js/jquery-1.7.min.js"></script>
+<script src="js/modernizr.custom.34982.js"></script>
+
+<script src="js/sketcher.js"></script>
+<script src="js/trigonometry.js"></script>
+<script>
+
+
+function loadimg(url) {
+var dataURL = sketch.toDataURL('image/png');
+var img = new Image();
+    img.onload = function(){
+       // alert( this.width+' '+ this.height );
+//     canvas.width = this.width;
+//            canvas.height = this.height;
+    };
+    img.src = url;
+
+      var context = canvas.getContext('2d');
+      var imageObj = new Image();
+context.fillStyle = "white";
+context.fillRect(0, 0, canvas.width, canvas.height);
+
+      imageObj.onload = function() {
+        context.drawImage(imageObj, 0, 0);
+      };
+      imageObj.src = url;
+//document.getElementById('check').checked = false
+
+}
+
+
+
+
+
+/*
+var sketcher = null;
+
+$(document).ready(function(e) {
+	
+	sketcher = new Sketcher( "sketch" );
+});*/
+
+
+
+var imageLoader = document.getElementById('imageLoader');
+    imageLoader.addEventListener('change', handleImage, false);
+var canvas = document.getElementById('sketch');
+var ctx = canvas.getContext('2d');
+
+
+function handleImage(e){
+var canvas = document.getElementById("sketch");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+    var reader = new FileReader();
+    reader.onload = function(event){
+        var img = new Image();
+        img.onload = function(){
+//            canvas.width = img.width;
+//            canvas.height = img.height;
+            ctx.drawImage(img,0,0);
+        }
+        img.src = event.target.result;
+    }
+    reader.readAsDataURL(e.target.files[0]);     
+}
+</script>
+
+    <canvas id="sketch" width="500" height="300" />
+
+    <script>
+var canvas = document.getElementById("sketch");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "white";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+    </script>
+
+
+
+
+<br>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+
+
+
+
+
+
+<!--
+<canvas  id='textCanvas' height=120></canvas>
+--><!--<img id='image'>-->
+    <br><!--<a style="font-size:20px;" download="data.png" onclick=" var dataURL = textCanvas.toDataURL('image/png');
+    this.href = dataURL; this.download = 'data_' + document.getElementById('text').value + '_.png'" href="">Print Text</a>-->
+
+  <style>
+canvas{
+    border: 1px black solid;
+}
+#textCanvas{
+    display: none;
+}
+    </style>
+<script>
+var tCtx = document.getElementById('sketch').getContext('2d'),
+    imageElem = document.getElementById('image');
+function func(){
+tCtx.fillStyle = "white";
+tCtx.fillRect(0, 0, 50000, 120);
+
+aaa = tCtx.measureText(document.getElementById('text').value).width
+if (aaa > 500) {
+}
+tCtx.fillStyle = "white";
+tCtx.fillRect(0, 0, 50000, 120);
+tCtx.font = "100px Arial";
+if (document.getElementById('text').value.length > 8) {
+  fontsize = 8 * 100 / document.getElementById('text').value.length
+} else {
+  fontsize = 100
+}
+tCtx.font = String(fontsize)+"px Droid Sans Mono";
+tCtx.font = String(fontsize)+"px Menlo-Regular";
+tCtx.font = String(fontsize)+"px Menlo";
+tCtx.fillStyle = "black";
+tCtx.fillText(document.getElementById('text').value, 0, fontsize * .75 + 10);
+//}
+}
+document.getElementById('text').addEventListener('keyup', function (){
+func()
+  }, false);
+
+ </script>
+
+
+
+ <script>
+   function upload() {
+   if (document.getElementById('name').value != "") {
+                var canvas = document.getElementById("sketch");
+                var dataURL = canvas.toDataURL("image/png");
+                document.getElementById('hidden_data').value = dataURL;
+                var fd = new FormData(document.forms["form1"]);
+ 
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'upload.php?name='+document.getElementById('name').value, true);
+ 
+                xhr.upload.onprogress = function(e) {
+                    if (e.lengthComputable) {
+                        var percentComplete = (e.loaded / e.total) * 100;
+                        console.log(percentComplete + '% uploaded');
+                        alert('Succesfully uploaded');
+                    }
+                };
+ 
+                xhr.onload = function() {
+ 
+                };
+                xhr.send(fd);
+   } else {
+alert('Enter a Name')
+   }
+   };
+
+
+
+
+
+
+
+   
+(function() {
+	var canvas = document.querySelector('#sketch');
+	var ctx = canvas.getContext('2d');
+	var mouse = {x: 0, y: 0};
+	 
+	/* Mouse Capturing Work */
+	canvas.addEventListener('mousemove', function(e) {
+		mouse.x = e.pageX - this.offsetLeft;
+		mouse.y = e.pageY - this.offsetTop;
+	}, false);
+	
+	/* Drawing on Paint App */
+	ctx.lineWidth = 5;
+	ctx.lineJoin = 'round';
+	ctx.lineCap = 'round';
+	ctx.strokeStyle = 'black';
+	 
+	canvas.addEventListener('mousedown', function(e) {
+			ctx.beginPath();
+			ctx.moveTo(mouse.x, mouse.y);
+	 
+			canvas.addEventListener('mousemove', onPaint, false);
+	}, false);
+	 
+	canvas.addEventListener('mouseup', function() {
+			canvas.removeEventListener('mousemove', onPaint, false);
+	}, false);
+	 
+	var onPaint = function() {
+			ctx.lineTo(mouse.x, mouse.y);
+			ctx.stroke();
+	};
+	
+}());
+
+
+ </script>
+  <input type="button" id="White" onclick="	var canvas = document.querySelector('#sketch');
+	var ctx = canvas.getContext('2d');ctx.strokeStyle = 'white';	ctx.lineWidth = 15;" style="background-color: white; width: 25px; height: 25px;"/>
+ <input type="button" id="Black" onclick="	var canvas = document.querySelector('#sketch');
+	var ctx = canvas.getContext('2d');ctx.strokeStyle = 'black';	ctx.lineWidth = 5;" style="background-color: black; width: 25px; height: 25px;"/>
+
+    </body>
+
+</html>

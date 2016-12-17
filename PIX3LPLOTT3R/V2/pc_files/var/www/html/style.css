@@ -1,0 +1,310 @@
+/*
+    Red:    #ef1821;
+    Blue:   #0767b0;
+    Orange: #FFA500; 
+*/
+
+body {
+	margin: 10px;
+	padding: 0px;
+	font-family: Arial, Comic Sans MS;
+	font-size: 10pt;
+	color: #000000;
+}
+
+
+/* ************************************************** */
+@font-face {
+     font-family: digital-7; 
+     src: url(../fonts/digital-7.ttf);
+     src: local(digital-7), url(../fonts/digital-7.ttf);
+}
+
+.TimerIcon                      {   position: absolute;   top: 2px;  right: 2px;  }               
+.TimerSmall                     {   position: absolute;   top: 0px;  left: 0px; margin: 0px; padding: 5px; 
+                                    background-color: black; text-align: center;  border: 2px outset gray; }
+.TimerSmall select              {   width: 70px; }
+.TimerSmall input[type=button], 
+.TimerSmall input[type]=button]  {   width: 70px; text-align: center; font-size: 10pt; }
+.TimerSmall .Clock              {   font-family: digital-7; color: white; font-size: 32pt; line-height: 100%;  }
+
+.TimerLarge                     {   position: absolute;   top: 0px;  left: 0px; margin: 0px; padding: 10px 10px 200px 10px; 
+                                    background-color: black; text-align: center;  border: 2px outset gray; width: 100%; }
+.TimerLarge select              {   width: 120px; }      
+.TimerLarge input[type=button], 
+.TimerLarge input[type=button]  {   width: 120px; text-align: center; font-size: 24pt; font-weight: bold;}
+.TimerLarge .Clock              {   font-family: digital-7; color: white; font-size: 450pt; line-height: 100%;  }
+/* ************************************************** */
+
+.PreviewPanel           {   position: absolute;   top: 0px;  left: 0px; margin: 0px;
+                            padding: 80px 200px 400px 200px; background-color: rgba(00,00,00,0.6);           }
+.PreviewPanel table     {   background-color: whitesmoke; border-collapse: collapse; border: 1px solid #0767b0;     }
+.PreviewPanel table th  {   border: 1px solid #0767b0; vertical-align: top; text-align: left; padding: 8px 16px;    }
+.PreviewPanel table td  {   border: 1px solid #0767b0; vertical-align: top; text-align: left; padding: 8px 16px;    }
+
+.OptionsPanel               {   position: absolute;   top: 0px;  left: 0px; width: 100%; height: 1000px; margin: 0px;
+                                padding: 80px 200px 400px 200px; background-color: rgba(00,00,00,0.6);         }
+.OptionsPanel fieldset      {   margin: 10px; padding: 0px 10px; }
+.OptionsPanel table         {   background-color: whitesmoke; border: 1px solid #0767b0; }
+.OptionsPanel td            {   padding: 10px; vertical-align: top; }
+.OptionsPanel table table   {   background-color: transparent; border: none; width: auto; }
+.OptionsPanel td td         {   padding: 2px; vertical-align: top; }
+.SampleText                 {   margin: 3px;  width:80px; cursor:pointer; color:black; background-image: url(images/ColorText.png); background-repeat:no-repeat; text-align: right;  }
+.SampleBack                 {   margin: 3px;  width:80px; cursor:pointer; color:black; background-image: url(images/ColorBack.png); background-repeat:no-repeat; text-align: right;  }
+.ajax__colorPicker_container {  width: auto ! important; border: 1px solid #0767b0; }
+
+#btnMenuShow { position: fixed; bottom:0px; left: 0px; background-attachment: scroll; }
+#btnMenuHide { position: fixed; bottom:0px; left: 149px; background-attachment: scroll; }
+    
+.SideMenu {
+    width: 160px;
+    float: left;
+	padding: 0px;	
+	margin: 0px; 
+	text-align: center;
+	font-size: 9pt;	
+    }
+.Sidebar { 
+    background-image: url(../images/Sidebar.png);
+    background-repeat: repeat-y; 
+    }  
+.BodyMenu { 
+    padding: 30px; 
+    margin-left: 160px;
+    }  
+.BodyOnly { 
+    padding: 10px 20px; 
+    margin-left: 0px;
+    }  
+
+
+
+.Grid       { border-collapse: collapse; }
+.Grid th    { background-color: #F0E68C;  color: #0767b0; }
+.Grid th    { border: 1px solid #000000; vertical-align: middle; padding: 4px 8px;}
+.Grid td    { border: 1px solid #000000; vertical-align: top; padding: 4px 6px; }
+.Grid 
+.AltRow     { background-color: #FFFACD;  }  /* #F0FFF0; */
+.Left       { text-align: left; }
+.Right      { text-align: right; }
+.Center     { text-align: center; }
+
+Legend      { color: #0767b0; }
+.Layout th  { text-align: left; vertical-align:top; padding: 4px 8px; }
+.Layout td  { text-align: left; vertical-align:top; padding: 4px 6px; }
+.Tight     { border-collapse: collapse; }
+.Tight th  { text-align: left; vertical-align:top; padding: 0px 2px; }
+.Tight td  { text-align: left; vertical-align:top; padding: 0px 2px; }
+
+
+caption { text-align: left; }
+
+.Error      { color: #ff0000; font-size: 10pt; }
+.Valid      { background-color: #99ff99; }
+.Warning    { background-color: #ffcccc; }
+.Invalid    { background-color: #ff9999; }
+.Red        { color: #ea2127; }
+.Black      { color: #000000; }
+.Pre        { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;  }
+
+.Pending, 
+.Pending A  { color: #ea2127; }
+.Done, 
+.Done    A  { color: #009900; }
+
+.RAG-Red,
+.RAG-Red A  { color: #ea2127; }
+.RAG-Amber,
+.RAG-Amber A { color: Goldenrod; }
+.RAG-Green,
+.RAG-Green A { color: #009900;  }
+
+
+#_xxx_Score  {
+    text-align: center;
+    border: none;
+    width: 80px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.ASC { background-image: URL(../images/asc.png); background-position:right; background-repeat: no-repeat; }
+.DESC { background-image: URL(../images/desc.png); background-position:right; background-repeat: no-repeat; }
+
+
+UL {
+	margin: 0px 0px 15px 0px;
+    text-indent: 15px;
+}
+
+H1, .H1 {
+	font-family: Verdana;
+	font-size: 12pt;
+	color: #0767b0;
+	margin: 0px;
+	}
+H2, .H2 {
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #0767b0;
+	margin: 0px;
+	padding: 0px;
+	line-height: 16pt;
+	}
+.Header {
+    font-family: Arial;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ea2127;
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	cursor: pointer;
+}
+.Note {
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: red;
+	}
+	
+a 	{
+	Text-decoration: none;
+	color: #ea2127;
+}
+a img { border:0 !important; } 
+
+a:hover	{
+	Text-decoration: underline;
+}
+input[type=button] { width: 100px; }
+.Wrap { white-space:  normal; } 
+.Nowrap { white-space: nowrap; }
+
+
+
+.Button,
+input[type=button] {
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    margin: 1px;
+    padding: 2px;
+    background: #ff0000;
+    color: #FFFFFF;
+    border: solid 1px #20538D;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;  
+    user-select:none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+.Button:hover,
+input:hover[type=button] {
+    background: #FFA500;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.Button:active,
+input:active[type=button] {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6); 
+}
+
+/* ************************************************** */
+/*	border: 1px solid gray; */
+.Required  {	
+	background-image: url("../images/Required.gif"); 
+	background-position: right Top;
+	background-repeat: no-repeat; 
+	}
+select.Required, textarea.Required  {	
+	background-image: url("../images/Required2.gif"); 
+	background-position: right Top;
+	background-repeat: no-repeat;
+	}
+select,	textarea, input[type=text], input[type=file], input[type=password] {
+	font-family: Arial;	
+	font-size: 8pt;	
+	}
+.Border     { border: 1px solid gray; }
+.NoBorder   { border: none; background-color: transparent; }
+
+/********************************************************************* */
+.MenuStatic {
+	border:			    solid 1px gray;
+	padding:            0px;
+	margin:             6%;
+	font-family:	    Arial;
+	font-size:		    9pt;
+	font-weight:	    bold;	
+	text-align:         left; 
+	}
+.MenuStaticItem {
+	color:			    #0767b0;
+	background-color:   #FFF8DC; /* (Cornsilk) */	
+	padding:		    6px 9px;
+	text-indent:        0px;
+	}
+.MenuStaticItem:Hover {
+	background-color:   #F0E68C; /* Khaki */
+    }
+    
+.MenuDynamic {
+	border:			    solid 1px gray;
+	font-family:	    Arial;
+	font-size:		    9pt;
+	font-weight:	    bold;
+	}	
+.MenuDynamicItem {
+	color:			    #0767b0;
+	background-color:   #F0E68C; /* (Khaki) */ 
+	padding:		    4px;
+	text-indent:        0px;
+	}
+.MenuDynamicItem:Hover {
+	background-color:   #BDB76B; /* Dark Khaki */
+	}	
+
+/* ************************************************** */
+#map-canvas {
+    float:right;
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 0px 30px;
+    padding: 1px;
+    border: 1px solid #999999;
+    }
+    
+.Popup {
+    padding: 0px 20px 0px 0px;
+}
+.Popup th, .Popup td { white-space: nowrap; }
+/* ************************************************** */
+.Hidden         {   display: none;  }
+.NoScreen       {   display: none;  }
+@Media Print    {
+    Body        {   background-image: none;  padding: 0px;  margin: 0px; font-size: 7pt }
+    .Sidebar    {   background-image: none; }
+	.NoPrint    {   display: none;  }
+    .SideMenu   {   display: none;  }
+    .BodyMenu   {   position: relative;   top: auto;   left: auto;   padding: 0px;  margin: 0px; }
+    .Valid      {   background-color: transparent; }
+    .Warning    {   background-color: transparent; }
+    .Invalid    {   background-color: transparent; }
+
+	}
+
+/* ************************************************** */
