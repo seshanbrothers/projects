@@ -1,6 +1,7 @@
 # Pix3l Plott3r code using ev3dev
 
 <b> What is ev3dev and linux</b>
+
 Linux is the kernel that runs on many devices. Linux is used by the ev3, raspberry pi and ordinary PCs through an operating system, such as Debian, EV3 Firmware, Ubuntu, etc.
 
 Ev3dev is Debian GNU/Linux for your ev3. This allows you to take advantage of certain ev3 features and program in other languages. Our code uses python.
@@ -48,6 +49,7 @@ Testing your installation:
 
 
 OPTIONAL - Running a server on a Raspberry Pi running Debian (or a derivitive such as Ubuntu or Raspbian):
+
 *** Your username must be "pi" and the password "raspberry" for the code to work ****
 
 *   Prerequisites:
