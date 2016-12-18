@@ -1,5 +1,7 @@
 # Pix3l Plott3r code using ev3dev
 
+This code is for Pix3l Plott3r Version 2. The build is made using LEGO DIGITAL DESIGNER. The file is "PIX3L_PLOTT3R (2).lxf"
+
 <b> What is ev3dev and linux</b>
 
 Linux is the kernel that runs on many devices. Linux is used by the ev3, raspberry pi and ordinary PCs through an operating system, such as Debian, EV3 Firmware, Ubuntu, etc.
