@@ -59,10 +59,12 @@ OPTIONAL - Running a server on a Raspberry Pi running Debian (or a derivitive su
 
 
 *   Download this folder:
-*   
-        git clone https://github.com/seshanbrothers/projects.git
-        cd projects/PIX3LPLOTT3R/V2/pc_files
-        sudo cp -r * /
+
+1)        git clone https://github.com/seshanbrothers/projects.git
+
+2)        cd projects/PIX3LPLOTT3R/V2/pc_files
+
+3)        sudo cp -r * /
 
 
 You will need to replace <code>192.168.43.22</code> in sendprint.py with the ev3's ip address
