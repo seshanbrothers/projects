@@ -21,5 +21,5 @@ This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this YouTub
 
 **Step 6: Start Printing** Run the SCRIB3 Program on the EV3 brick. Place SCRIB3 such that the print area will always be on the paper (as it moves across). Make sure that the printer head (the part that holds the pen is moved to the far left, closest to the brick, so that the touch sensor is pressent.Now use the IR Beacon Remote buttons to pick the images. Each button corresponds to an image.
 
-<img src="Touch.JPG" align="center" height="500">
-<img src="Infrared.JPG" align="center" height="500">
+<img src="Touch.JPG" align="left" height="250">
+<img src="Infrared.JPG" align="right" height="250">
