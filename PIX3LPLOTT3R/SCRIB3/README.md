@@ -1,7 +1,7 @@
 
 This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this YouTube Video [Link Coming Soon] to see the robot in action before you begin.
 
-![picture](../SCRIB3.JPG) {width="250px"}
+<img src="../SCRIB3.JPG" align="center" height="250" width="250">
 
 **Step 1: Build Model** [Instructions coming soon]
 
