@@ -11,14 +11,14 @@ This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this <a hre
 
 <img src="PenHolder.JPG" align="center" height="500">
 
-**Step 4: Adjust Code** Download the .ev3 file and images provided. We have created different images you can choose from. We have set up the code to have four images at a time. Four default images are provided: Taj Mahal Marc-Andre Bazergui Portrait, London Cityscape, and Seshan Brothers Portrait. You can either print one of those four, or upload your own images (as .rtf files) and modify the code.  Note: To create alternative images in a format that is recognized by the EV3, you will have to run a small <a href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">Python Script</a>.
+**Step 4: Adjust Code** Download the .ev3 file and images provided. We have created different images you can choose from. We have set up the code to have four images at a time. Four default images are provided: Taj Mahal, Marc-Andre Bazergui Portrait, London Cityscape (long, banner-style image will require a long piece of paper), and Seshan Brothers Portrait. We have provide a few images below so you can compare your prints with ours. You can either print one of those four, or upload your own images (as .rtf files) and modify the code.  Note: To create alternative images in a format that is recognized by the EV3, you will have to run a small <a href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">Python Script</a>.
 
 <img src="MarcAndreBazergui.JPG" align="left" height="250">
 <img src="SeshanBrothers.JPG" align="right" height="250">
 
 **Step 5: Download Images** Download the four images to Brick. See EV3Lessons.com --> Advanced --> Files, if you do not know how to add the images to the brick.
 
-**Step 6: Start Printing** Run the SCRIB3 Program on the EV3 brick. Place SCRIB3 such that the print area will always be on the paper (as it moves across). Make sure that the printer head (the part that holds the pen is moved to the far left, closest to the brick, so that the touch sensor is pressent.Now use the IR Beacon Remote buttons to pick the images. Each button corresponds to an image.
+**Step 6: Start Printing** Download the .ev3 file. Run the SCRIB3 Program on the EV3 brick. Place SCRIB3 such that the print area will always be on the paper (as it moves across). Make sure that the printer head (the part that holds the pen is moved to the far left, closest to the brick, so that the touch sensor is pressed. Now use the IR Beacon Remote buttons to pick the images. Each button corresponds to an image (you can see comments in the code to know which button is for which image).
 
 <img src="Touch.JPG" align="left" height="250">
 <img src="Infrared.JPG" align="right" height="250">
