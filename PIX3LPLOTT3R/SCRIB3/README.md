@@ -3,7 +3,7 @@ This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this <a hre
 
 <img src="../SCRIB3.JPG" align="center" height="500">
 
-**Step 1: Build Model** Use the LDD file available in this GitHub repository to build the model. Wiring: Medium Motor (Port A), Large Motor Controlling Pen (Port B), Larage Motor Controlling Wheels (Port C), Touch Sensor (Port 1), and Infrared (Port 4), . Use the longer wires for B (35cm) and C (50cm) connections.
+**Step 1: Build Model** Use the LDD file available in this GitHub repository to build the model. Wiring: Medium Motor (Port A), Large Motor Controlling Pen (Port B), Larage Motor Controlling Wheels (Port C), Touch Sensor (Port 1), and Infrared (Port 4), . Use the longer wires for B (35cm) and C (50cm) motor connections.
 
 **Step 2: Get Paper** Tape a large piece of paper down on a hard surface. This will ensure that the paper does not move as the robot drives across. We prefer to use paper as wide as the robot.
 
