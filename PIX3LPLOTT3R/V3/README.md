@@ -29,6 +29,6 @@ Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Mo
 
 ![picture](PP3Back.png)
 
-**STEP 6:** How do you make more images? We have provided a Python script that will convert any png to a rtf. The png should be 100 pixels width.
+**STEP 6:** How do you make more images? We have provided a <a href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">Python Script</a>  that will convert any png to a rtf. The png should be 100 pixels width.
 
 ![picture](Pix3lv3.png)
