@@ -1,10 +1,9 @@
 
-This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this YouTube Video [Link Coming Soon] to see the robot in action before you begin.
+This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this <a> href="https://youtu.be/kFiWumBILwU" YouTube Video </a> to see the robot in action before you begin.
 
 <img src="../SCRIB3.JPG" align="center" height="500">
 
-**Step 1: Build Model** [Instructions coming soon]
-
+**Step 1: Build Model** Use the LDD file available in this GitHub repository to build the model. Wiring: Medium Motor (Port A), Large Motor Controlling Pen (Port B), Larage Motor Controlling Wheels (Port C), Touch Sensor (Port 1), and Infrared (Port 4), . Use the longer wires for B (35cm) and C (50cm) connections.
 
 **Step 2: Get Paper** Tape a large piece of paper down on a hard surface. This will ensure that the paper does not move as the robot drives across. We prefer to use paper as wide as the robot.
 
@@ -12,7 +11,7 @@ This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this YouTub
 
 <img src="PenHolder.JPG" align="center" height="500">
 
-**Step 4: Adjust Code** We have created different images you can choose from. We have set up the code to have four images at a time. The default images in the code are: A photo of the Seshan Brothers who created this project, the Taj Mahal, MINDSTORMS Expert Marc-Andre Bazergui and XX.  You can either print one of those four, or upload your own images and modify the code.  Note: To create alternative images in a format that is recognized by the EV3, you will have to run a small Python Script.
+**Step 4: Adjust Code** Download the .ev3 file and images provided. We have created different images you can choose from. We have set up the code to have four images at a time. The default images in the code are: A photo of the Seshan Brothers who created this project, the Taj Mahal, MINDSTORMS Expert Marc-Andre Bazergui and XX.  You can either print one of those four, or upload your own images and modify the code.  Note: To create alternative images in a format that is recognized by the EV3, you will have to run a small Python Script.
 
 <img src="MarcAndreBazergui.JPG" align="left" height="250">
 <img src="SeshanBrothers.JPG" align="right" height="250">
