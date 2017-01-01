@@ -11,7 +11,7 @@ This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this <a hre
 
 <img src="PenHolder.JPG" align="center" height="500">
 
-**Step 4: Adjust Code** Download the .ev3 file and images provided. We have created different images you can choose from. We have set up the code to have four images at a time. The default images in the code are: A photo of the Seshan Brothers who created this project, the Taj Mahal, MINDSTORMS Expert Marc-Andre Bazergui and XX.  You can either print one of those four, or upload your own images and modify the code.  Note: To create alternative images in a format that is recognized by the EV3, you will have to run a small Python Script.
+**Step 4: Adjust Code** Download the .ev3 file and images provided. We have created different images you can choose from. We have set up the code to have four images at a time. Four default images are provided: Taj Mahal Marc-Andre Bazergui Portrait, London Cityscape, and Seshan Brothers Portrait. You can either print one of those four, or upload your own images (as .rtf files) and modify the code.  Note: To create alternative images in a format that is recognized by the EV3, you will have to run a small Python Script.
 
 <img src="MarcAndreBazergui.JPG" align="left" height="250">
 <img src="SeshanBrothers.JPG" align="right" height="250">
