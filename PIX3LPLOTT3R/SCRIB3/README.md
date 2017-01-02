@@ -16,7 +16,7 @@ This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this <a hre
 <img src="MarcAndreBazergui.JPG" align="left" height="250">
 <img src="SeshanBrothers.JPG" align="right" height="250">
 
-**Step 5: Download Images** Download the four images to Brick. See EV3Lessons.com --> Advanced --> Files, if you do not know how to add the images to the brick.
+**Step 5: Download Images** Download the four images to Brick. If you do not know how to do this, you will need to complete a lesson on Downloading and Uploading Files. Go to EV3Lessons.com. Click on the Lessons Tab. Click on the Advanced Tab. Click on Files. It will teach you how to download the four .rtf files we have provided to your brick.
 
 **Step 6: Start Printing** Download the .ev3 file. Run the SCRIB3 Program on the EV3 brick. Place SCRIB3 such that the print area will always be on the paper (as it moves across). Make sure that the printer head (the part that holds the pen is moved to the far left, closest to the brick, so that the touch sensor is pressed. Now use the IR Beacon Remote buttons to pick the images. Each button corresponds to an image (you can see comments in the code to know which button is for which image).
 
