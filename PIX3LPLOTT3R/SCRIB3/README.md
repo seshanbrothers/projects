@@ -22,3 +22,5 @@ This version of PIX3L PLOTT3R is made with just one 31313 set. Watch this <a hre
 
 <img src="Touch.JPG" align="left" height="250">
 <img src="Infrared.JPG" align="right" height="250">
+<img src="SCRIB3Remote.png" align="left" height="250">
+
