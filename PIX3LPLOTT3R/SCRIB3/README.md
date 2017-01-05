@@ -18,7 +18,7 @@ Wiring: Medium Motor (Port A), Large Motor Controlling Pen (Port B), Larage Moto
 <img src="MarcAndreBazergui.JPG" align="left" height="250">
 <img src="SeshanBrothers.JPG" align="right" height="250">
 
-**Step 5: Download the EV3 Code and the Images to your EV3** First, download the .EV3 file to your EV3 brick. Next, upload the four images (.rtf files) to your brick. If you do not know how to do this, you will need to complete a <a href="http://ev3lessons.com/translations/en-us/advanced/DownloadUploadFiles.pdf">lesson on Downloading and Uploading Files</a>. Upload them to the SCRIB3 folder. Go to EV3Lessons.com and Go to Programming Lessons. Click on the Advanced Tab. Click on Files. It will teach you how to download the four .rtf files from your computer to your brick.
+**Step 5: Download the EV3 Code and the Images to your EV3** First, download the .EV3 file to your EV3 brick. Next, upload the four images (.rtf files) to your brick. If you do not know how to do this, you will need to complete a <a href="http://ev3lessons.com/translations/en-us/advanced/DownloadUploadFiles.pdf">lesson on Downloading and Uploading Files</a>. Upload them to the SCRIB3 folder on the EV3 brick.
 
 **Step 6: Start Printing** On your EV3 brick, run the SCRIB3 Program. Place SCRIB3 such that the print area will always be on the paper (as it moves across). Make sure that the printer head (the part that holds the pen is moved to the far left, closest to the brick, so that the touch sensor is pressed. Now use the IR Beacon Remote buttons to pick the images. Each button corresponds to an image (you can see comments in the code to know which button is for which image).
 
