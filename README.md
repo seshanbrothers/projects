@@ -11,6 +11,9 @@ This page is for projects for which we have building instructions and/or code fi
 
 **M3MORY GAM3:** An electronic version of the popular memory game built using EV3s. This is a multi-EV3 project that involves rotating titles. Players have to remember where they saw a particular LEGO piece and then turn the correct tiles to create a match. The game board can be replaced with new tiles when needed.    <a href="https://github.com/seshanbrothers/projects/blob/master/MemoryGame/EV3Memory.ev3"> Code File </a> 
 
+**VOT3R Booth:** An electronic voting booth.<a href="https://github.com/seshanbrothers/projects/blob/master/Vot3rBooth/VotingEV3.ev3"> Code File V.1 </a>, <a href="https://github.com/seshanbrothers/projects/blob/master/Vot3rBooth/VotingEV3.ev3"> Code File V.2 </a> 
+
+
 **M3LODY MAKER:** A musical robot. This EV3 uses the color sensor to read long strips of paper with notes on them. Each color corresponds to a note. *Project files coming soon*
 
 **DROIDBOT JR:** A training robot built with parts from the 31313 set for use with all our lessons on EV3Lessons.com. *Project files coming soon*
