@@ -9,7 +9,7 @@ This page is for projects for which we have building instructions and/or code fi
 
 **EV3D Pi.G Print3r:** A LEGO MINDSTORMS 3D Printer that uses an inexpensive 3D printing pen. This printer accepts G-Code files.  The EV3 is programmed in standard EV3-G. Pre-processing of the G-Code is done in Python. *Project files coming soon*
 
-**M3MORY GAM3:** An electronic version of the popular memory game built using EV3s. This is a multi-EV3 project that involves rotating titles. Players have to remember where they saw a particular LEGO piece and then turn the correct tiles to create a match. The game board can be replaced with new tiles when needed. *Project files coming soon*
+**M3MORY GAM3:** An electronic version of the popular memory game built using EV3s. This is a multi-EV3 project that involves rotating titles. Players have to remember where they saw a particular LEGO piece and then turn the correct tiles to create a match. The game board can be replaced with new tiles when needed.    <a href="https://github.com/seshanbrothers/projects/blob/master/MemoryGame/EV3Memory.ev3"> Code File </a> 
 
 **M3LODY MAKER:** A musical robot. This EV3 uses the color sensor to read long strips of paper with notes on them. Each color corresponds to a note. *Project files coming soon*
 
