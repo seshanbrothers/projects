@@ -29,6 +29,9 @@ Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Mo
 
 ![picture](PP3Back.png)
 
-**STEP 6:** How do you make more images? We have provided a <a href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">Python Script</a>  that will convert any png to a rtf. The png should be 100 pixels width.
-
+**STEP 6:** How do you make more images? We have provided a <a href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">Python Script</a>  that will convert any png to a rtf. The png should be 100 pixels width and in the same directory. 
+<br>Note: 
+<br> 1)Operating Systems Tested: Mac OS X 10.11+ and Debian GNU/Linux 8.x/9. It has NOT been tested on Windows. (It WILL work on Windows 10 + <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about">MS Linux subsystem</a>)
+<br> 2) Versions of Python Tested: The code will only work with python 2.7 (not python 3.x)
+<br> 3) To run (on linux/macOS/win10+bash)--> <code>python2 image2ev3.rtf ./YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf</code> (Similar syntax in CMD.EXE+python2.7)
 ![picture](Pix3lv3.png)
