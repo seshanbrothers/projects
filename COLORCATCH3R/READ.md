@@ -1,5 +1,5 @@
 
-<img align="middle" height="400" src="IMG_1204.jpeg">
+<img align="middle" height="400" src="IMG_1204.jpg">
 
 COLOR CATCH3R is a multiplayer game with LEGO MINDSTORMS.
 
