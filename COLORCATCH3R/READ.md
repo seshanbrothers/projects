@@ -1,4 +1,6 @@
 
+<img align="middle" height="400" src="IMG_1204.jpeg">
+
 COLOR CATCH3R is a multiplayer game with LEGO MINDSTORMS.
 
 V.1 was made for Innovation Faire in St.Louis.  In this version, the robot players were made using NXT motors. The LDD file and list of parts is provided.
