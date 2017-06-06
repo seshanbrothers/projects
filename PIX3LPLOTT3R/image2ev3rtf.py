@@ -9,7 +9,7 @@
 #errors --> try using (r,g,b = ...) instead of (r,g,b,a = ...) ***EVERYWHERE BELOW**
 
 from PIL import Image, ImageFilter
-from termcolor import colored
+#from termcolor import colored
 import time
 import os
 import sys
