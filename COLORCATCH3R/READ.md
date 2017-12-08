@@ -3,7 +3,9 @@
 
 COLOR CATCH3R is a fast-paced multiplayer game. The object of the game is to be the first to get to a randomly selected color. The person that collects five colors wins.
 
-The game is played using the Infrared Beacon. Players control their own robot. A master controller robot will pick the color and display it on a game board. The robots are all connected together and the master controller keeps track of the score and announces the winner in each round.  You can see the game being played here:  <a href="https://youtu.be/XFAwqX4fy-M">YouTube Video</a>.  .
+The game is played using the Infrared Beacon. Players control their own robot. A master controller robot will pick the color and display it on a game board. The robots are all connected together and the master controller keeps track of the score and announces the winner in each round.  You can see the game being played here:  <a href="https://youtu.be/XFAwqX4fy-M">YouTube Video</a>.
+
+You will need: 3-4 EV3 Players, 1 EV3 Master Controller, Colored Paper Squares (cardstock) stuck on a white background. Our game uses black, blue, green, red and yellow squares. We cut them into two different sizes (small and large squares). Distribute these squares around your field. Tip: Check if the color on the paper is identifyable with an EV3 Color Sensor. We took our EV3 to the store and checked prior to buying the paper. We used ColorBok Primary Colors.
 
 COLOR CATCH3R V.1 was made in April 2017 for Innovation Faire in St.Louis.  In this version, the robot players were made using NXT motors. The LDD file and list of parts is provided. In addition to the three players, there was a referee robot (JAVI3R) as well as a game board that indicated the next color. JAVI3R has both an EV3 and a Raspberry Pi inside. The LXF file for V1 only includes the player robot.
 
