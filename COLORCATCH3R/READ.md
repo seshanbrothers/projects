@@ -15,7 +15,7 @@ COLOR CATCH3R V.1 was made in April 2017 for Innovation Faire in St.Louis.  In t
 
 <a href="https://github.com/seshanbrothers/projects/blob/master/COLORCATCH3R/colorcatchernxtmotors.lxf"> V.1 LXF File </a> 
 
-COLOR CATCH3R V.2 was made in November 2017 for WRO Costa Rica and uses EV3 motors and wheels from the EV3 Core Set which are more easily available. It uses a game controller EV3 to randomly pick the color as well as keep score. The LXF file for V.2 includes the players as well as the master controller.
+COLOR CATCH3R V.2 was made in November 2017 and uses EV3 motors and wheels from the EV3 Core Set which are more easily available. It uses a game controller EV3 to randomly pick the color as well as keep score. The LXF file for V.2 includes the players as well as the master controller.
 
 <img align="middle" height="400" src="colorcatcherv2.png">
 
