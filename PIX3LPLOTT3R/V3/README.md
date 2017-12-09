@@ -29,9 +29,28 @@ Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Mo
 
 ![picture](PP3Back.png)
 
-**STEP 6:** How do you make more images? We have provided a <a href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">Python Script</a>  that will convert any png to a rtf. The png should be 100 pixels width and in the same directory. 
-<br>Note: 
-<br> 1)Operating Systems Tested: Mac OS X 10.11+ and Debian GNU/Linux 8.x/9. It has NOT been tested on Windows. (It WILL work on Windows 10 + <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about">MS Linux subsystem</a>)
-<br> 2) Versions of Python Tested: The code will only work with python 2.7 (not python 3.x)
-<br> 3) To run (on linux/macOS/win10+bash)--> <code>python2 image2ev3.rtf ./YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf</code> (Similar syntax in CMD.EXE+python2.7)
-![picture](Pix3lv3.png)
+**STEP 6:** How do you make more images? We have provided a <a href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">Python Script</a>  that will convert any png to a rtf. The png should be 100 pixels width and in the same directory. Follow the detailed instructions below.
+
+If you are using Windows:
+
+1) Download python here: https://www.python.org/downloads/windows/ (Install python2)
+	- During the install process, make sure you select the option to add python to path
+2) Download our python code: https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py
+3) Launch Command Prompt and navigate to the directory you downloaded the file (e.g. cd Downloads\)
+4) Resize your image to 100px in width. Also the picture should be like a stencil. You can use https://online.rapidresizer.com/photograph-to-pattern.php
+	- Save the picture to the same directory as the python code
+5) run the following command in command prompt: python image2ev3.rtf YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
+6) Now the file myprint.rtf is the file to be uploaded to the brick
+
+For Mac OS X or Debian-based Linux:
+
+1) For Debian-based Linux only:  (If you have a Mac, you should automatically have Python 2. Use that.)
+	- Run python --version in Terminal. If version is not 2.x.x then run sudo apt-get install python2
+2) Download our python code: https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py
+3) Launch Terminal and navigate to the directory you downloaded the file (e.g. cd ~/Downloads)
+4) Resize your image to 100px in width. Also the picture should be like a stencil. You can use https://online.rapidresizer.com/photograph-to-pattern.php
+	- Save the picture to the same directory as the python code
+5) Run python --version in Terminal
+	-If version is 2.x.x then run this: python image2ev3.rtf YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
+	- If version is 3.x.x then run this: python2 image2ev3.rtf YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
+6) Now the file myprint.rtf is the file to be uploaded to the brick
