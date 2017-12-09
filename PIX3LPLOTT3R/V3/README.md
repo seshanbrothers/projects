@@ -33,22 +33,23 @@ Color Sensor - Port 3, Paper Feeder Medium Motor - Port A, Printer Head Large Mo
 
 If you are using Windows:
 
-1) Download python here: https://www.python.org/downloads/windows/ (Install python2)
+1) Download python <a href="https://www.python.org/downloads/windows/">here</a> (Install python2)
 	- During the install process, make sure you select the option to add python to path
-2) Download our python code: https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py
+2) Download our python converter code: <a href=
+https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">here</a>
 3) Launch Command Prompt and navigate to the directory you downloaded the file (e.g. cd Downloads\)
-4) Resize your image to 100px in width. Also the picture should be like a stencil. You can use https://online.rapidresizer.com/photograph-to-pattern.php
+4) Resize your image to 100px in width. Also the picture should be like a stencil (just an outline). You can use <a href="https://online.rapidresizer.com/photograph-to-pattern.php">Rapid Resizer</a>
 	- Save the picture to the same directory as the python code
-5) run the following command in command prompt: python image2ev3.rtf YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
+5) Run the following command in command prompt: python image2ev3.rtf YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
 6) Now the file myprint.rtf is the file to be uploaded to the brick
 
 For Mac OS X or Debian-based Linux:
 
 1) For Debian-based Linux only:  (If you have a Mac, you should automatically have Python 2. Use that.)
 	- Run python --version in Terminal. If version is not 2.x.x then run sudo apt-get install python2
-2) Download our python code: https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py
+2) Download our python code: href="https://github.com/seshanbrothers/projects/blob/master/PIX3LPLOTT3R/image2ev3rtf.py">here</a>
 3) Launch Terminal and navigate to the directory you downloaded the file (e.g. cd ~/Downloads)
-4) Resize your image to 100px in width. Also the picture should be like a stencil. You can use https://online.rapidresizer.com/photograph-to-pattern.php
+4) Resize your image to 100px in width. Also the picture should be like a stencil. You can use <a href="https://online.rapidresizer.com/photograph-to-pattern.php">Rapid Resizer</a>
 	- Save the picture to the same directory as the python code
 5) Run python --version in Terminal
 	-If version is 2.x.x then run this: python image2ev3.rtf YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
