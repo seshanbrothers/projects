@@ -40,7 +40,7 @@ If you are using Windows:
 3) Launch Command Prompt and navigate to the directory you downloaded the file (e.g. cd Downloads\)
 4) Resize your image to 100px in width. Also the picture should be like a stencil (just an outline). You can use <a href="https://online.rapidresizer.com/photograph-to-pattern.php">Rapid Resizer</a>
 	- Save the picture to the same directory as the python code
-5) Run the following command in command prompt: python image2ev3.rtf YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
+5) Run the following command in command prompt: python image2ev3.py YOUR_FILE_NAME_HERE.EXTENTION > myprint.rtf
 6) Now the file myprint.rtf is the file to be uploaded to the brick
 
 For Mac OS X or Debian-based Linux:
